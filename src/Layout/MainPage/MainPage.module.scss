@@ -1,0 +1,387 @@
+.banner,
+.introduction {
+  width: 100%;
+}
+
+.banner-img,
+.introduction-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.introduction {
+  display: block;
+  position: relative;
+}
+.introduction_content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 17.4rem;
+  z-index: 1;
+}
+
+.content_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  width: 100%;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 4.9rem;
+}
+
+.description {
+  width: 66.9rem;
+  font-size: 2rem;
+  color: #fff;
+  line-height: 3.2rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.orgage_clor {
+  color: #f96400;
+}
+
+.yellow_color {
+  color: #fcd426;
+}
+
+.black_color {
+  color: #000;
+}
+
+.best_product {
+  padding: 15rem 17.4rem;
+  background-color: #fcd426;
+}
+
+.best_product_list {
+  display: flex;
+  width: 100%;
+  margin-top: 7.4rem;
+}
+
+.best_product_item {
+  width: 52.3rem;
+  position: relative;
+  .best_product_img {
+    height: auto;
+    width: 100%;
+  }
+  .logo_number {
+    width: 9.2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
+  }
+}
+
+.item_description {
+  position: absolute;
+  bottom: 0;
+  left: 7rem;
+  right: 7rem;
+  transform: translateY(50%);
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem;
+  border: solid 0.3rem #020001;
+
+  span {
+    width: 18.8rem;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-left: 2rem;
+  }
+
+  img {
+    width: 6.5rem;
+  }
+}
+
+.main_product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 17.4rem;
+  .main_product_list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 4.4rem;
+  }
+}
+
+.main_product_item {
+  display: block;
+  width: 30rem;
+  margin-bottom: 7.2rem;
+  img {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+}
+
+.main_product_description {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.main_product_price {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  span {
+    font-size: 1.6rem;
+  }
+}
+
+.brand {
+  background-color: #0565bb;
+  padding: 15rem 0;
+  height: 95.6rem;
+  position: relative;
+}
+
+.brand_img_1 {
+  width: 18.3rem;
+  position: absolute;
+  top: 18.3rem;
+  left: 16.9rem;
+}
+
+.brand_img_2 {
+  width: 19.2rem;
+  position: absolute;
+  top: 41.5rem;
+}
+
+.brand_img_3 {
+  width: 18rem;
+  position: absolute;
+  top: 49.7rem;
+  left: 19rem;
+}
+
+.brand_img_4 {
+  width: 14.7rem;
+  position: absolute;
+  top: 6.1rem;
+  right: 25.6rem;
+}
+
+.brand_img_5 {
+  width: 14.8rem;
+  position: absolute;
+  top: 9.3rem;
+  right: 17.1rem;
+}
+
+.brand_img_6 {
+  height: 45.7rem;
+  position: absolute;
+  top: 19rem;
+  right: 0;
+  transform: translateX(33%);
+}
+
+.brand_img_7 {
+  height: 23.3rem;
+  position: absolute;
+  top: 53.7rem;
+  right: 0;
+  transform: translateX(8%);
+}
+
+.brand_container {
+  display: flex;
+  position: absolute;
+  top: 34.5rem;
+  left: 33.3rem;
+  border-top: 2.4rem solid #000;
+  img {
+    width: 61.2rem;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 61.2rem;
+    background-color: #fff;
+    border-top: 0.3rem solid #000;
+    border-right: 0.3rem solid #000;
+    border-bottom: 0.3rem solid #000;
+    padding: 6rem 5rem;
+  }
+}
+
+.brand_container_title {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.brand_container_descrip {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+}
+
+.issue {
+  background-color: #fccb05;
+  padding: 15.8rem 0 14.2rem 0;
+}
+
+.issue_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 12.8rem;
+  position: relative;
+}
+
+.issue_img_4 {
+  position: absolute;
+  top: 0;
+  left: 41.1rem;
+  transform: translateY(-50%);
+  width: 11.1rem;
+}
+
+.issue_img_5 {
+  position: absolute;
+  bottom: 0;
+  left: 23rem;
+  transform: translateY(50%);
+  width: 16.7rem;
+}
+
+.issue_img_6 {
+  position: absolute;
+  bottom: 0;
+  right: 35.3rem;
+  transform: translateY(50%);
+  width: 13.3rem;
+}
+
+.issue_item_1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ff5500;
+  padding: 8.7rem 9.7rem;
+  height: 47rem;
+  span {
+    width: 18.9rem;
+    font-size: 5.5rem;
+    font-weight: 800;
+    text-align: center;
+    color: #000;
+    margin-bottom: 6.3rem;
+  }
+
+  .issue_item_img {
+    width: 14.8rem;
+  }
+}
+.issue_item {
+  flex: 1;
+  height: 47rem;
+  .issue_item_title {
+    height: 7.4rem;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 7.4rem;
+    font-size: 3rem;
+    font-weight: 800;
+  }
+
+  img {
+    height: 39.6rem;
+  }
+}
+
+.active {
+  background-color: #ff5500 !important;
+}
+
+.footer_content {
+  padding: 14.8rem;
+  position: relative;
+  height: 168.6rem;
+}
+
+.footer_img_1 {
+  position: absolute;
+  top: 0;
+  left: 22.6rem;
+  width: 14.6rem;
+}
+
+.footer_img_2 {
+  position: absolute;
+  top: 16.8rem;
+  right: 15rem;
+  width: 14.6rem;
+}
+.footer_img_3 {
+  position: absolute;
+  top: 27rem;
+  right: 24.4rem;
+  width: 13rem;
+}
+.footer_img_4 {
+  position: absolute;
+  top: 31.4rem;
+  left: 0;
+  height: 51.2rem;
+  transform: translateX(-58%);
+}
+.footer_img_5 {
+  position: absolute;
+  top: 122.6rem;
+  left: 22.3rem;
+  height: 14.6rem;
+}
+.footer_img_6 {
+  position: absolute;
+  top: 133.6rem;
+  left: 34.8rem;
+  height: 20.4rem;
+}
+.footer_img_7 {
+  position: absolute;
+  top: 65.6rem;
+  right: 0;
+  height: 33.7rem;
+  transform: translateX(50%);
+}
+.footer_img_8 {
+  position: absolute;
+  top: 93.2rem;
+  right: 0;
+  height: 55.2rem;
+  transform: translateX(33.3%);
+}
+.footer_img {
+  position: absolute;
+  top: 47.1rem;
+  left: 33.5rem;
+  height: 82.3rem;
+}
